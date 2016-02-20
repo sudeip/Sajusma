@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05A0DC11C78B34700B76C9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C05A0DC01C78B34700B76C9F /* main.m */; };
+		C05A0DC41C78B34700B76C9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C05A0DC31C78B34700B76C9F /* AppDelegate.m */; };
+		C05A0DC71C78B34700B76C9F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05A0DC61C78B34700B76C9F /* RootViewController.m */; };
+		C05A0DCA1C78B34700B76C9F /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05A0DC91C78B34700B76C9F /* DataViewController.m */; };
+		C05A0DCD1C78B34700B76C9F /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05A0DCC1C78B34700B76C9F /* ModelController.m */; };
+		C05A0DD01C78B34700B76C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05A0DCE1C78B34700B76C9F /* Main.storyboard */; };
+		C05A0DD21C78B34700B76C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05A0DD11C78B34700B76C9F /* Assets.xcassets */; };
+		C05A0DD51C78B34700B76C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05A0DD31C78B34700B76C9F /* LaunchScreen.storyboard */; };
+		C05A0DE01C78B34700B76C9F /* SajusmaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05A0DDF1C78B34700B76C9F /* SajusmaTests.m */; };
+		C05A0DEB1C78B34700B76C9F /* SajusmaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C05A0DEA1C78B34700B76C9F /* SajusmaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C05A0DDC1C78B34700B76C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C05A0DB41C78B34700B76C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05A0DBB1C78B34700B76C9F;
+			remoteInfo = Sajusma;
+		};
+		C05A0DE71C78B34700B76C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C05A0DB41C78B34700B76C9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C05A0DBB1C78B34700B76C9F;
+			remoteInfo = Sajusma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C05A0DBC1C78B34700B76C9F /* Sajusma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sajusma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05A0DC01C78B34700B76C9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C05A0DC21C78B34700B76C9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C05A0DC31C78B34700B76C9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C05A0DC51C78B34700B76C9F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C05A0DC61C78B34700B76C9F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C05A0DC81C78B34700B76C9F /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		C05A0DC91C78B34700B76C9F /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		C05A0DCB1C78B34700B76C9F /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		C05A0DCC1C78B34700B76C9F /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		C05A0DCF1C78B34700B76C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C05A0DD11C78B34700B76C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C05A0DD41C78B34700B76C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C05A0DD61C78B34700B76C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05A0DDB1C78B34700B76C9F /* SajusmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SajusmaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05A0DDF1C78B34700B76C9F /* SajusmaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SajusmaTests.m; sourceTree = "<group>"; };
+		C05A0DE11C78B34700B76C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C05A0DE61C78B34700B76C9F /* SajusmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SajusmaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05A0DEA1C78B34700B76C9F /* SajusmaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SajusmaUITests.m; sourceTree = "<group>"; };
+		C05A0DEC1C78B34700B76C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C05A0DB91C78B34700B76C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A0DD81C78B34700B76C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A0DE31C78B34700B76C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C05A0DB31C78B34700B76C9F = {
+			isa = PBXGroup;
+			children = (
+				C05A0DBE1C78B34700B76C9F /* Sajusma */,
+				C05A0DDE1C78B34700B76C9F /* SajusmaTests */,
+				C05A0DE91C78B34700B76C9F /* SajusmaUITests */,
+				C05A0DBD1C78B34700B76C9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C05A0DBD1C78B34700B76C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C05A0DBC1C78B34700B76C9F /* Sajusma.app */,
+				C05A0DDB1C78B34700B76C9F /* SajusmaTests.xctest */,
+				C05A0DE61C78B34700B76C9F /* SajusmaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C05A0DBE1C78B34700B76C9F /* Sajusma */ = {
+			isa = PBXGroup;
+			children = (
+				C05A0DC21C78B34700B76C9F /* AppDelegate.h */,
+				C05A0DC31C78B34700B76C9F /* AppDelegate.m */,
+				C05A0DC51C78B34700B76C9F /* RootViewController.h */,
+				C05A0DC61C78B34700B76C9F /* RootViewController.m */,
+				C05A0DC81C78B34700B76C9F /* DataViewController.h */,
+				C05A0DC91C78B34700B76C9F /* DataViewController.m */,
+				C05A0DCB1C78B34700B76C9F /* ModelController.h */,
+				C05A0DCC1C78B34700B76C9F /* ModelController.m */,
+				C05A0DCE1C78B34700B76C9F /* Main.storyboard */,
+				C05A0DD11C78B34700B76C9F /* Assets.xcassets */,
+				C05A0DD31C78B34700B76C9F /* LaunchScreen.storyboard */,
+				C05A0DD61C78B34700B76C9F /* Info.plist */,
+				C05A0DBF1C78B34700B76C9F /* Supporting Files */,
+			);
+			path = Sajusma;
+			sourceTree = "<group>";
+		};
+		C05A0DBF1C78B34700B76C9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C05A0DC01C78B34700B76C9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C05A0DDE1C78B34700B76C9F /* SajusmaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C05A0DDF1C78B34700B76C9F /* SajusmaTests.m */,
+				C05A0DE11C78B34700B76C9F /* Info.plist */,
+			);
+			path = SajusmaTests;
+			sourceTree = "<group>";
+		};
+		C05A0DE91C78B34700B76C9F /* SajusmaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C05A0DEA1C78B34700B76C9F /* SajusmaUITests.m */,
+				C05A0DEC1C78B34700B76C9F /* Info.plist */,
+			);
+			path = SajusmaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C05A0DBB1C78B34700B76C9F /* Sajusma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05A0DEF1C78B34700B76C9F /* Build configuration list for PBXNativeTarget "Sajusma" */;
+			buildPhases = (
+				C05A0DB81C78B34700B76C9F /* Sources */,
+				C05A0DB91C78B34700B76C9F /* Frameworks */,
+				C05A0DBA1C78B34700B76C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sajusma;
+			productName = Sajusma;
+			productReference = C05A0DBC1C78B34700B76C9F /* Sajusma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C05A0DDA1C78B34700B76C9F /* SajusmaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05A0DF21C78B34700B76C9F /* Build configuration list for PBXNativeTarget "SajusmaTests" */;
+			buildPhases = (
+				C05A0DD71C78B34700B76C9F /* Sources */,
+				C05A0DD81C78B34700B76C9F /* Frameworks */,
+				C05A0DD91C78B34700B76C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05A0DDD1C78B34700B76C9F /* PBXTargetDependency */,
+			);
+			name = SajusmaTests;
+			productName = SajusmaTests;
+			productReference = C05A0DDB1C78B34700B76C9F /* SajusmaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C05A0DE51C78B34700B76C9F /* SajusmaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05A0DF51C78B34700B76C9F /* Build configuration list for PBXNativeTarget "SajusmaUITests" */;
+			buildPhases = (
+				C05A0DE21C78B34700B76C9F /* Sources */,
+				C05A0DE31C78B34700B76C9F /* Frameworks */,
+				C05A0DE41C78B34700B76C9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C05A0DE81C78B34700B76C9F /* PBXTargetDependency */,
+			);
+			name = SajusmaUITests;
+			productName = SajusmaUITests;
+			productReference = C05A0DE61C78B34700B76C9F /* SajusmaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C05A0DB41C78B34700B76C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Sudeep Jain";
+				TargetAttributes = {
+					C05A0DBB1C78B34700B76C9F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7QXD88926C;
+					};
+					C05A0DDA1C78B34700B76C9F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7QXD88926C;
+						TestTargetID = C05A0DBB1C78B34700B76C9F;
+					};
+					C05A0DE51C78B34700B76C9F = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7QXD88926C;
+						TestTargetID = C05A0DBB1C78B34700B76C9F;
+					};
+				};
+			};
+			buildConfigurationList = C05A0DB71C78B34700B76C9F /* Build configuration list for PBXProject "Sajusma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C05A0DB31C78B34700B76C9F;
+			productRefGroup = C05A0DBD1C78B34700B76C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C05A0DBB1C78B34700B76C9F /* Sajusma */,
+				C05A0DDA1C78B34700B76C9F /* SajusmaTests */,
+				C05A0DE51C78B34700B76C9F /* SajusmaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C05A0DBA1C78B34700B76C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05A0DD51C78B34700B76C9F /* LaunchScreen.storyboard in Resources */,
+				C05A0DD21C78B34700B76C9F /* Assets.xcassets in Resources */,
+				C05A0DD01C78B34700B76C9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A0DD91C78B34700B76C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A0DE41C78B34700B76C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C05A0DB81C78B34700B76C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05A0DCA1C78B34700B76C9F /* DataViewController.m in Sources */,
+				C05A0DC41C78B34700B76C9F /* AppDelegate.m in Sources */,
+				C05A0DCD1C78B34700B76C9F /* ModelController.m in Sources */,
+				C05A0DC11C78B34700B76C9F /* main.m in Sources */,
+				C05A0DC71C78B34700B76C9F /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A0DD71C78B34700B76C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05A0DE01C78B34700B76C9F /* SajusmaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05A0DE21C78B34700B76C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05A0DEB1C78B34700B76C9F /* SajusmaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C05A0DDD1C78B34700B76C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05A0DBB1C78B34700B76C9F /* Sajusma */;
+			targetProxy = C05A0DDC1C78B34700B76C9F /* PBXContainerItemProxy */;
+		};
+		C05A0DE81C78B34700B76C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C05A0DBB1C78B34700B76C9F /* Sajusma */;
+			targetProxy = C05A0DE71C78B34700B76C9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C05A0DCE1C78B34700B76C9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05A0DCF1C78B34700B76C9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C05A0DD31C78B34700B76C9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C05A0DD41C78B34700B76C9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05A0DED1C78B34700B76C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C05A0DEE1C78B34700B76C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C05A0DF01C78B34700B76C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sajusma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspirious.sajusma.Sajusma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C05A0DF11C78B34700B76C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sajusma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspirious.sajusma.Sajusma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C05A0DF31C78B34700B76C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SajusmaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspirious.sajusma.SajusmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sajusma.app/Sajusma";
+			};
+			name = Debug;
+		};
+		C05A0DF41C78B34700B76C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SajusmaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspirious.sajusma.SajusmaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sajusma.app/Sajusma";
+			};
+			name = Release;
+		};
+		C05A0DF61C78B34700B76C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SajusmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspirious.sajusma.SajusmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sajusma;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C05A0DF71C78B34700B76C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SajusmaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inspirious.sajusma.SajusmaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sajusma;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05A0DB71C78B34700B76C9F /* Build configuration list for PBXProject "Sajusma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05A0DED1C78B34700B76C9F /* Debug */,
+				C05A0DEE1C78B34700B76C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05A0DEF1C78B34700B76C9F /* Build configuration list for PBXNativeTarget "Sajusma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05A0DF01C78B34700B76C9F /* Debug */,
+				C05A0DF11C78B34700B76C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C05A0DF21C78B34700B76C9F /* Build configuration list for PBXNativeTarget "SajusmaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05A0DF31C78B34700B76C9F /* Debug */,
+				C05A0DF41C78B34700B76C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C05A0DF51C78B34700B76C9F /* Build configuration list for PBXNativeTarget "SajusmaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05A0DF61C78B34700B76C9F /* Debug */,
+				C05A0DF71C78B34700B76C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C05A0DB41C78B34700B76C9F /* Project object */;
+}
